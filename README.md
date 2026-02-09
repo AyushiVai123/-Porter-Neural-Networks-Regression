@@ -18,19 +18,19 @@ Data Dictionary
 
 Each row in this file corresponds to one unique delivery. Each column corresponds to a feature as explained below.
 
-market_id : integer id for the market where the restaurant lies
-created_at : the timestamp at which the order was placed
-actual_delivery_time : the timestamp when the order was delivered
-store_primary_category : category for the restaurant
-order_protocol : integer code value for order protocol(how the order was placed ie: through porter, call to restaurant, pre booked, third part etc)
-total_items subtotal : final price of the order
-num_distinct_items : the number of distinct items in the order
-min_item_price : price of the cheapest item in the order
-max_item_price : price of the costliest item in order
-total_onshift_partners : number of delivery partners on duty at the time order was placed
-total_busy_partners : number of delivery partners attending to other tasks
-total_outstanding_orders : total number of orders to be fulfilled at the moment
-estimated_store_to_consumer_driving_duration : approximate travel time from restaurant to customer
+1. market_id : integer id for the market where the restaurant lies
+2. created_at : the timestamp at which the order was placed
+3. actual_delivery_time : the timestamp when the order was delivered
+4. store_primary_category : category for the restaurant
+5. order_protocol : integer code value for order protocol(how the order was placed ie: through porter, call to restaurant, pre booked, third part etc)
+6. total_items subtotal : final price of the order
+7. num_distinct_items : the number of distinct items in the order
+8. min_item_price : price of the cheapest item in the order
+9. max_item_price : price of the costliest item in order
+10. total_onshift_partners : number of delivery partners on duty at the time order was placed
+11. total_busy_partners : number of delivery partners attending to other tasks
+12. total_outstanding_orders : total number of orders to be fulfilled at the moment
+13. estimated_store_to_consumer_driving_duration : approximate travel time from restaurant to customer
 
 ``` Porter Delivery Time Estimation using Neural Networks Regression
 
